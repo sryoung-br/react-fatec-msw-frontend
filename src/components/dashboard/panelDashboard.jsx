@@ -64,7 +64,7 @@ class PanelDashboard extends React.Component {
 
       this.setState({covid: covid});
 
-      if(value === ''){
+      if(covid['country'] === ''){
         this.setState({displayBtnMa : "none"});
       }
       else{
@@ -431,7 +431,7 @@ class PanelDashboard extends React.Component {
       covid.start = dateStartString;
       covid.end = dateEndString;
 
-      this.setState({covid:covid, title: "Data Visualization - Covid19", color : "white"})
+      this.setState({covid:covid, title: "Data Visualization - Covid19 (Marcos Eduardo)", color : "white"})
       
       this.countries()
 
