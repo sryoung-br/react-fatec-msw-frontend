@@ -377,7 +377,7 @@ class PanelDashboard extends React.Component {
           "timeUnit": "minute",
           "count": 1
         };
-        dateAxis.tooltipDateFormat = "HH:mm, d MMMM";
+        dateAxis.tooltipDateFormat = "dd MMMM YYYY";
 
         let valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
         valueAxis.tooltip.disabled = true;
