@@ -64,7 +64,7 @@ class PanelDashboard extends React.Component {
 
       this.setState({covid: covid});
 
-      if(covid['country'] === ''){
+      if(this.state.covid.country === ''){
         this.setState({displayBtnMa : "none"});
       }
       else{
