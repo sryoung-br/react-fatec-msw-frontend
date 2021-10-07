@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /**
+   Adição de Background Customizado
+   */
+  background : url("https://wallpaperaccess.com/full/1116894.jpg");
+  background-size: 100% 100%;
 }
 
 code {
